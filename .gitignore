@@ -1,0 +1,4 @@
+pokerstarsports-front-end-technical-test.code-workspace
+node_modules
+cypress/videos/**
+cypress/screenshots/*

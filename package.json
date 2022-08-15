@@ -1,0 +1,25 @@
+{
+  "name": "pokerstarsports-front-end-technical-test",
+  "version": "1.0.0",
+  "description": "This project is setup for Pokerstarsport front-end technical test demo ",
+  "main": "index.js",
+  "scripts": {
+    "cy:info": "cypress info",
+    "cy:chrome": "cypress run --browser chrome --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.15.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.1"
+  }
+}
