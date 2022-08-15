@@ -22,8 +22,7 @@ Cypress.Commands.add('betSelection', (menu, item) => {
     switch (menu) {
         case 'in-play':
             cy.get('#sportList__link__inplay > .sportsList__label').then(($el) => {
-                expect($el).to.contain('In-Play')
-                    .click();
+                expect($el).to.contain('In-Play');
             });
             cy.get('#home-rab > .betBundlesView > .groupHeader').then(($el) => {
                 expect($el).to.contain('Request a Bet');
